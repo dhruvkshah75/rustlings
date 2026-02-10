@@ -1,6 +1,7 @@
 // TODO: Fix the function body without changing the signature.
-fn square(num: i32) -> i32 {
-    num * num;
+fn square(num: i32) -> i64 {
+    // this is the return statement so remove the semicolon 
+    (num * num) as i64    // => this is the type conversion that is important 
 }
 
 fn main() {
